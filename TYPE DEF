@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+typedef struct student
+{
+	int rollno;
+	char name[10];
+};
+int main()
+{
+	typedef student stud;
+	stud s1;
+	s1.rollno=100;
+	strcpy(s1.name,"CHANDU");
+	printf("Name is:%s \nRoll No is:%d",s1.name,s1.rollno);
+}
