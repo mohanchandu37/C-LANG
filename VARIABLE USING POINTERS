@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int a=10;
+	int *p;
+	p=&a;
+	printf("sizeof pointer is:%d",sizeof(p));
+	printf("\nvalue of p is:%x",p);
+	printf("\nAdress of p is:%x",&p);
+	printf("\nadress of a is:%x",&a);
+	printf("\nvalue of a is:%d",*p);
+}
