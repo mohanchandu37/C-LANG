@@ -1,0 +1,10 @@
+ void main()
+{
+ int n;
+ printf (“enter a number:”);
+ sacnf (“%d”, &n);
+ If (n%2==0)
+ printf (“even number”);
+else
+ printf(“odd number”);
+}
