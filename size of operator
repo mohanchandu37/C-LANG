@@ -1,0 +1,7 @@
+int main( )
+{
+int sum;
+float f;
+printf( "%d%d" ,size of(f), size of (sum) );
+printf("%d%d", size of(235 L), size of(A));
+}
